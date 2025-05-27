@@ -1,0 +1,46 @@
+@import './base.css';
+
+:root,
+body,
+[data-color-scheme] {
+  color-scheme: light !important;
+  background-color: white !important;
+  color: #333 !important;
+}
+
+pre {
+  background: #282c34;
+  color: #fff;
+  /* white-space: pre-line; */
+  padding: 15px;
+  line-height: 22px;
+  border-radius: 6px;
+  font-size: 14px;
+  overflow: auto;
+  margin: 12px 0;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+  margin: 6px;
+}
+
+main {
+  ul {
+    list-style: auto;
+    padding-left: 1em;
+  }
+}
+
+p {
+  padding: 6px 0;
+}
+
+:root {
+  color-scheme: light !important;
+}
