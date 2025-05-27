@@ -53,8 +53,6 @@
   </ul>
 </template>
 
-<script setup>
-import { column } from 'element-plus/es/components/table-v2/src/common';
-</script>
+<script setup></script>
 
 <style scoped lang="scss"></style>
