@@ -9,13 +9,6 @@ export default defineConfig({
   base: '/tailwind-css-example/',
   build: {
     outDir: 'docs',
-    rollupOptions: {
-      output: {
-        assetFileNames: 'assets/[name].[hash].[ext]',
-        chunkFileNames: 'assets/[name].[hash].js',
-        entryFileNames: 'assets/[name].[hash].js',
-      },
-    },
   },
   plugins: [
     vue(),

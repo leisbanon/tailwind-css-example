@@ -83,7 +83,9 @@
   </ul>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from 'vue';
+</script>
 
 <style scoped lang="scss">
 pre {
